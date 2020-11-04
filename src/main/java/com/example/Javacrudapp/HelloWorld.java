@@ -14,7 +14,7 @@ public class HelloWorld {
 
     @RequestMapping("/")
     public void index() {
-        String dbURL = "jdbc:mysql://localhost:8889/java";
+        String dbURL = "jdbc:mysql://localhost:8889/java"; //SQL Port 8889
         String username = "fnovello";
         String password = "novello2";
 
